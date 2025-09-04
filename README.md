@@ -47,6 +47,18 @@ Flick gestures replace keyboard inputs.
 **Hardware:** Arduino Leonardo, MPU6050 Accelerometers  
 **Custom Controllers:** Bespoke spatula-shaped cardboard controllers with MPU6050 mounted on them  
 
+## Credits
+### ***3D Kitchen Assets***
+https://tinytreats.itch.io/charming-kitchen/download/eyJleHBpcmVzIjoxNzQ0MzQ0Njc1LCJpZCI6Mjk0OTk1MX0%3d.woZHewPBaq%2bAU6qG0wI%2fJv0o3v4%3d
+
+### ***Music***    
+Bensound.com/royalty-free-music   
+Track: India   
+License code: WWMMW78YVA4X9BTR   
+https://pixabay.com/sound-effects/negative-beeps-6008/   
+https://pixabay.com/sound-effects/eating-chips-81092/   
+https://pixabay.com/sound-effects/marimba-win-e-3-209687/   
+
 
 
 
