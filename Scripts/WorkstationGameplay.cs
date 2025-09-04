@@ -52,6 +52,9 @@ public class WorkstationGameplay : MonoBehaviour
 
     MoveSmallChaku moveSmallChaku;
 
+    public int mySide;
+    public int oppSide;
+
     public GameObject s2;
 
     WorkstationGameplay p2;
@@ -204,7 +207,7 @@ public class WorkstationGameplay : MonoBehaviour
                 laadoo1.transform.position=laadoo1pos;
                 eating.Play();
                 laadoo1.SetActive(false);
-                if(moveSmallChaku.side==1){
+                if(moveSmallChaku.side==mySide){
                     cumulativePoints+=20;
                 } 
                 else{
@@ -217,7 +220,7 @@ public class WorkstationGameplay : MonoBehaviour
                 laadoo2.transform.position=laadoo2pos;
                 eating.Play();
                 laadoo2.SetActive(false);
-                if(moveSmallChaku.side==1){
+                if(moveSmallChaku.side==mySide){
                     cumulativePoints+=20;
                 } 
                 else{
@@ -231,7 +234,7 @@ public class WorkstationGameplay : MonoBehaviour
                 laadoo3.transform.position=laadoo3pos;
                 eating.Play();
                 laadoo3.SetActive(false);
-                if(moveSmallChaku.side==1){
+                if(moveSmallChaku.side==mySide){
                     cumulativePoints+=20;
                 } 
                 else{
@@ -245,7 +248,7 @@ public class WorkstationGameplay : MonoBehaviour
                 laadoo4.transform.position=laadoo4pos;
                 eating.Play();
                 laadoo4.SetActive(false);
-                if(moveSmallChaku.side==1){
+                if(moveSmallChaku.side==mySide){
                     cumulativePoints+=20;
                 } 
                 else{
@@ -260,7 +263,7 @@ public class WorkstationGameplay : MonoBehaviour
 
     private void LaunchOrder()
     {   
-        if(moveSmallChaku.side==1){
+        if(moveSmallChaku.side==mySide){
             if(Input.GetKeyDown(oppKey) && !p2.stunned){
                 Stun(20);
                 
@@ -269,7 +272,7 @@ public class WorkstationGameplay : MonoBehaviour
                 Launch(0.5f);
             }   
         }
-        if(moveSmallChaku.side==2){
+        if(moveSmallChaku.side==oppSide){
             if(Input.GetKeyDown(upKey)){
                 Launch(1f);
             }
