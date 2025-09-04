@@ -5,7 +5,7 @@ Players compete as Team Pink vs Team Green across 4 rounds to make and serve laa
 
 ## Repository Structure  
 ├── Scripts/                    # Unity C# scripts for game logic  
-├── spatula_controllers.ino # Arduino code for custom spatula controllers  
+├── spatula_controllers/        # Arduino code for custom spatula controllers  
 └── README.md                   # This file  
 
 

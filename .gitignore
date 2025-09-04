@@ -1,2 +1,4 @@
 # Ignore Mac app bundle
 *.app
+# Ignore OS files
+.DS_Store
