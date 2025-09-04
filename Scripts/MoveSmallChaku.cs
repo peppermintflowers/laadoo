@@ -1,7 +1,5 @@
-using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
-
+//this class controls the kid in stage TUG
 public class MoveSmallChaku : MonoBehaviour
 {
     int extremeL=-70;
@@ -9,9 +7,9 @@ public class MoveSmallChaku : MonoBehaviour
     bool moveLeft=false;
     bool moveRight=false;
     int x=0;
-    RandomMovementGenerator p1;
+    WorkstationGameplay p1;
 
-    RandomMovementGenerator2 p2;
+    WorkstationGameplay p2;
 
     TimeOut timeOut;
 
@@ -25,8 +23,8 @@ public class MoveSmallChaku : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        p1= s1.GetComponent<RandomMovementGenerator>();
-        p2=s2.GetComponent<RandomMovementGenerator2>();
+        p1= s1.GetComponent<WorkstationGameplay>();
+        p2=s2.GetComponent<WorkstationGameplay>();
         timeOut=timeKeeper.GetComponent<TimeOut>();
     }
     // Update is called once per frame

@@ -14,6 +14,7 @@ public class GoToMainMenu : MonoBehaviour
         
     }
 
+    //On pressing the cross during gameplay load the main menu
     public void OnBack()
     {
         SceneManager.LoadScene(0);

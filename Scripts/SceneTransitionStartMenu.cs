@@ -15,17 +15,22 @@ public class SceneTransitionStartMenu : MonoBehaviour
         
     }
 
+    //When user presses play button
     public void OnStart()
     {
         print("Loading play");
         SceneManager.LoadScene(5);
     }
 
-    public void OnQuit(){
+    //When user chooses to exit
+    public void OnQuit()
+    {
         Application.Quit();
     }
     
-    public void OnInfo(){
+    //This loads the credits scene
+    public void OnInfo()
+    {
         SceneManager.LoadScene(6);
     }
 }

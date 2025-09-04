@@ -1,6 +1,5 @@
-using Unity.VisualScripting;
 using UnityEngine;
-
+//this class controls the kid in stage SERVE
 public class MoveChaku : MonoBehaviour
 {
     Vector3 leftpos= new Vector3(9, 88, 56);
@@ -13,14 +12,13 @@ public class MoveChaku : MonoBehaviour
     bool positioned = false;
     Vector3 og = new Vector3(-199, 88, 56);
 
-    SpriteRenderer spriteRenderer;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         transform.position=og;
         timeOut=timeKeeper.GetComponent<TimeOut>();
         moveSmallChaku=smallChaku.GetComponent<MoveSmallChaku>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
