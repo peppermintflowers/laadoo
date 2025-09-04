@@ -3,7 +3,7 @@ It’s designed to be played with custom spatula-shaped controllers (built using
 
 Players compete as Team Pink vs Team Green across 4 rounds to make and serve laadoos (round desserts).
 
-Demo link for Mac OS: https://github.com/peppermintflowers/laadoo/releases/tag/v1.0.0
+Demo link for Mac OS: https://github.com/peppermintflowers/laadoo/releases/tag/v1.1.0
 
 ## Repository Structure  
 ├── Scripts/                    # Unity C# scripts for game logic  
