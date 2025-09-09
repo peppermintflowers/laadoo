@@ -1,3 +1,4 @@
+<img src="https://github.com/peppermintflowers/laadoo/blob/main/Images/Start.png" alt="Game Start Screen" width="500"/>
 _Laadoo_ is a 2 player competitive **(1v1)** game developed in **Unity** as a final project for my Game Design class.
 It’s designed to be played with custom spatula-shaped controllers (built using **Arduino Leonardo** and MPU6050 accelerometers), but it also supports keyboard controls.
 
@@ -17,10 +18,11 @@ Objective: Score points by making laadoos and serving them to the kid. Player wi
 
 4 rounds, each with 3 stages: Make → Tug → Serve.  
    
-
+<img src="https://github.com/peppermintflowers/laadoo/blob/main/Images/Make.png" alt="Game Start Screen" width="500"/>
 1. **Make Stage** _(yellow backdrop)_ – Flick the spatula toward the opponent to add ingredients. Collect red dots by moving the spatula(every 2 = 1 laadoo).  
 2. **Tug Stage** _(red backdrop)_ – Move spatula left/right to pull the kid toward your side.  
-3. **Serve Stage** _(blue backdrop)_ – Flick the spatula forward to serve the kid (if in front). Stun opponents by flicking toward them.  
+3. **Serve Stage** _(blue backdrop)_ – Flick the spatula forward to serve the kid (if in front). Stun opponents by flicking toward them.
+<img src="https://github.com/peppermintflowers/laadoo/blob/main/Images/Serve.png" alt="Game Start Screen" width="500"/>
 
 ## Controls
 ### Keyboard
