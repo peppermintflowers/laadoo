@@ -1,15 +1,17 @@
 <img src="https://github.com/peppermintflowers/laadoo/blob/main/Images/Start.png" alt="Game Start Screen" width="500"/>
-_Laadoo_ is a 2 player competitive **(1v1)** game developed in **Unity** as a final project for my Game Design class.
-It’s designed to be played with custom spatula-shaped controllers (built using **Arduino Leonardo** and MPU6050 accelerometers), but it also supports keyboard controls.
+<em>Laadoo</em> is a 2 player competitive <strong>(1v1)</strong> game developed in <strong>Unity</strong> as a final project for my Game Design class.
+It’s designed to be played with custom spatula-shaped controllers (built using <strong>Arduino Leonardo</strong> and MPU6050 accelerometers), but it also supports keyboard controls.
 
 Players compete as Team Pink vs Team Green across 4 rounds to make and serve laadoos (round desserts).
 
 Demo link for Mac OS: https://github.com/peppermintflowers/laadoo/releases/tag/v1.1.0
 
-## Repository Structure  
+## Repository Structure
+```
 ├── Scripts/                    # Unity C# scripts for game logic  
 ├── spatula_controllers/        # Arduino code for custom spatula controllers  
-└── README.md                   # This file  
+└── README.md                   # This file
+```
 
 
 ## Gameplay Summary
@@ -19,10 +21,12 @@ Objective: Score points by making laadoos and serving them to the kid. Player wi
 4 rounds, each with 3 stages: Make → Tug → Serve.  
    
 <img src="https://github.com/peppermintflowers/laadoo/blob/main/Images/Make.png" alt="Game Start Screen" width="500"/>
-1. **Make Stage** _(yellow backdrop)_ – Flick the spatula toward the opponent to add ingredients. Collect red dots by moving the spatula(every 2 = 1 laadoo).  
-2. **Tug Stage** _(red backdrop)_ – Move spatula left/right to pull the kid toward your side.  
-3. **Serve Stage** _(blue backdrop)_ – Flick the spatula forward to serve the kid (if in front). Stun opponents by flicking toward them.
-<img src="https://github.com/peppermintflowers/laadoo/blob/main/Images/Serve.png" alt="Game Start Screen" width="500"/>
+<ol>
+<li><strong>Make Stage</strong> <em>(yellow backdrop)</em> – Flick the spatula toward the opponent to add ingredients. Collect red dots by moving the spatula(every 2 = 1 laadoo).</li>  
+<li><strong>Tug Stage</strong> <em>(red backdrop)</em> – Move spatula left/right to pull the kid toward your side. If you win, you get more points when serving the kid in the next round, and can make your opponent lose more points when you stun them!</li>   
+<li><strong>Serve Stage</strong> <em>(blue backdrop)</em> – Flick the spatula forward to serve the kid (if in front). Stun opponents by flicking toward them.
+<img src="https://github.com/peppermintflowers/laadoo/blob/main/Images/Serve.png" alt="Game Start Screen" width="500"/></li>
+</ol>
 
 ## Controls
 ### Keyboard
