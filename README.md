@@ -25,8 +25,9 @@ Objective: Score points by making laadoos and serving them to the kid. Player wi
 <li><strong>Make Stage</strong> <em>(yellow backdrop)</em> – Flick the spatula toward the opponent to add ingredients. Collect red dots by moving the spatula(every 2 = 1 laadoo).</li>  
 <li><strong>Tug Stage</strong> <em>(red backdrop)</em> – Move spatula left/right to pull the kid toward your side. If you win, you get more points when serving the kid in the next round, and can make your opponent lose more points when you stun them!</li>   
 <li><strong>Serve Stage</strong> <em>(blue backdrop)</em> – Flick the spatula forward to serve the kid (if in front). Stun opponents by flicking toward them.
-<img src="https://github.com/peppermintflowers/laadoo/blob/main/Images/Serve.png" alt="Game Start Screen" width="500"/></li>
 </ol>
+<img src="https://github.com/peppermintflowers/laadoo/blob/main/Images/Serve.png" alt="Game Start Screen" width="500"/></li>
+
 
 ## Controls
 ### Keyboard
